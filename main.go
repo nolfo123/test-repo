@@ -12,6 +12,7 @@ func findAverage(a []int) float64 {
 	return float64(sum) / float64(count)
 }
 
+/**/
 func main() {
 	i := []int{5, 6, 7, 8}
 	fmt.Println("average", findAverage(i))
