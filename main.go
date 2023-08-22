@@ -12,8 +12,20 @@ func findAverage(a []int) float64 {
 	return float64(sum) / float64(count)
 }
 
+func findMax(a []int) int {
+	max := a[0]
+	for i := 1; i < len(a); i++ {
+		if max < a[i] {
+			max = a[i]
+		}
+	}
+
+	return max
+}
+
 /**/
 func main() {
 	i := []int{5, 6, 7, 8}
 	fmt.Println("average", findAverage(i))
+	fmt.Println("max", findMax(i))
 }
