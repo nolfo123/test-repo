@@ -23,7 +23,7 @@ func findMax(a []int) int {
 	return max
 }
 
-/*1235*/
+/*1234*/
 func main() {
 	i := []int{5, 6, 7, 8}
 	fmt.Println("average", findAverage(i))
